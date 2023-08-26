@@ -1,0 +1,15 @@
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/bin/Debug/net7.0/NetUtility
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/bin/Debug/net7.0/NetUtility.deps.json
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/bin/Debug/net7.0/NetUtility.runtimeconfig.json
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/bin/Debug/net7.0/NetUtility.dll
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/bin/Debug/net7.0/NetUtility.pdb
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/obj/Debug/net7.0/NetUtility.csproj.AssemblyReference.cache
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/obj/Debug/net7.0/NetUtility.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/obj/Debug/net7.0/NetUtility.AssemblyInfoInputs.cache
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/obj/Debug/net7.0/NetUtility.AssemblyInfo.cs
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/obj/Debug/net7.0/NetUtility.csproj.CoreCompileInputs.cache
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/obj/Debug/net7.0/NetUtility.dll
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/obj/Debug/net7.0/refint/NetUtility.dll
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/obj/Debug/net7.0/NetUtility.pdb
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/obj/Debug/net7.0/NetUtility.genruntimeconfig.cache
+/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/obj/Debug/net7.0/ref/NetUtility.dll
