@@ -1,2 +1,0 @@
-# XUnit
-Testing through XUnit
