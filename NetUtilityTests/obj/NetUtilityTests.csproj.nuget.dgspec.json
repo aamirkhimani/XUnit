@@ -4,14 +4,14 @@
     "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtilityTests/NetUtilityTests.csproj": {}
   },
   "projects": {
-    "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtilityTests/NetUtilityTests.csproj": {
+    "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/NetUtility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtilityTests/NetUtilityTests.csproj",
-        "projectName": "NetUtilityTests",
-        "projectPath": "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtilityTests/NetUtilityTests.csproj",
+        "projectUniqueName": "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/NetUtility.csproj",
+        "projectName": "NetUtility",
+        "projectPath": "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/NetUtility.csproj",
         "packagesPath": "/Users/aamiraminali/.nuget/packages/",
-        "outputPath": "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtilityTests/obj/",
+        "outputPath": "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/aamiraminali/.nuget/NuGet/NuGet.Config"
@@ -38,7 +38,69 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtilityTests/NetUtilityTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtilityTests/NetUtilityTests.csproj",
+        "projectName": "NetUtilityTests",
+        "projectPath": "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtilityTests/NetUtilityTests.csproj",
+        "packagesPath": "/Users/aamiraminali/.nuget/packages/",
+        "outputPath": "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtilityTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aamiraminali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/NetUtility.csproj": {
+                "projectPath": "/Users/aamiraminali/Documents/Self_Learning/DevelopmentProjects/XUnit/NetworkUtility/NetUtility/NetUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.5.0, )"
