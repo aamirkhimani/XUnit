@@ -20,6 +20,17 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="FakeItEasy" Version="7.4.0" />
+    <PackageReference Include="FluentAssertions" Version="6.12.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Controller\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controller\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RunGroopWebApp\RunGroopWebApp.csproj" />
+  </ItemGroup>
 </Project>
