@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetUtilityTests", "NetUtili
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunGroopWebApp", "RunGroopWebApp\RunGroopWebApp.csproj", "{20361611-A726-4C48-A798-F6971B6D1DC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunGroopWebAppTests", "RunGroopWebAppTests\RunGroopWebAppTests.csproj", "{7C433673-BFF3-4BB6-A0B4-25304EF1327B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{20361611-A726-4C48-A798-F6971B6D1DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20361611-A726-4C48-A798-F6971B6D1DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20361611-A726-4C48-A798-F6971B6D1DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C433673-BFF3-4BB6-A0B4-25304EF1327B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C433673-BFF3-4BB6-A0B4-25304EF1327B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C433673-BFF3-4BB6-A0B4-25304EF1327B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C433673-BFF3-4BB6-A0B4-25304EF1327B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
