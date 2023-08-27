@@ -1,18 +1,31 @@
 ﻿using System;
+using NetUtility.DNS;
 using NetUtility.Objects;
 
 namespace NetUtility.Services
 {
 	public class NetService
 	{
-		public NetService()
-		{
-		}
+        private readonly IDNS _dNs;
 
-		public string Ping()
+        public NetService(IDNS dNs)
 		{
-			return "Success: Ping 192.168.2.123!";
-		}
+            _dNs = dNs;
+        }
+
+		public string SendPing()
+		{
+			bool dNsResult = _dNs.SendDNS();
+
+			if (dNsResult)
+			{
+                return "Success: Ping for IP:192.168.2.123 sent!";
+            }
+			else
+			{
+				return "Failed: An error occured";
+			}
+        }
 
 		public int PingTimeout(int time, int space)
 		{

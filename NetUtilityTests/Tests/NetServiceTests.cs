@@ -1,6 +1,8 @@
 ﻿using System;
+using FakeItEasy;
 using FluentAssertions;
 using FluentAssertions.Extensions;
+using NetUtility.DNS;
 using NetUtility.Objects;
 using NetUtility.Services;
 
@@ -8,20 +10,26 @@ namespace NetUtilityTests.Tests
 {
     public class NetServiceTests
     {
+        private readonly IDNS _dNs;
         private readonly NetService _NetService;
 
         public NetServiceTests()
         {
-            _NetService = new NetService();
+            //Using FakeItEasy for creating fake Dependencies
+            _dNs = A.Fake<IDNS>();
+
+            //SUT
+            _NetService = new NetService(_dNs);
         }
 
         [Fact]
         public void NetServices_Ping_ReturnString()
         {
             //Arrange
+            A.CallTo(() => _dNs.SendDNS()).Returns(true);
 
             //Act
-            var result = _NetService.Ping();
+            var result = _NetService.SendPing();
 
             //Assert
             result.Should().NotBeNullOrEmpty();

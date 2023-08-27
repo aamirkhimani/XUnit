@@ -97,6 +97,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FakeItEasy": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[6.12.0, )"
