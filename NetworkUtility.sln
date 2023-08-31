@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunGroopWebApp", "RunGroopW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunGroopWebAppTests", "RunGroopWebAppTests\RunGroopWebAppTests.csproj", "{7C433673-BFF3-4BB6-A0B4-25304EF1327B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonReviewApp", "PokemonReviewApp\PokemonReviewApp.csproj", "{358F79F6-0A9C-422E-9B96-EB684323110F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7C433673-BFF3-4BB6-A0B4-25304EF1327B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C433673-BFF3-4BB6-A0B4-25304EF1327B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C433673-BFF3-4BB6-A0B4-25304EF1327B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358F79F6-0A9C-422E-9B96-EB684323110F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358F79F6-0A9C-422E-9B96-EB684323110F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358F79F6-0A9C-422E-9B96-EB684323110F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358F79F6-0A9C-422E-9B96-EB684323110F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
